@@ -34,7 +34,7 @@ class SettingsActivity : AppCompatActivity() {
 
         val userManager = (application as MyApplication).userManager
 
-        settingsViewModel = SettingsViewModel(userManager.userDataRepository!!, userManager)
+            settingsViewModel = SettingsViewModel(userManager.userDataRepository!!, userManager)
         setupViews()
     }
 
